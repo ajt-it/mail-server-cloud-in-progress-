@@ -24,15 +24,17 @@ pour profiter des avantages à court et à long terme.
 
 
 ## Pré-requis
+
 Vous aurez besoin d'un compte AWS : https://aws.amazon.com/fr/ ainsi qu'un nom de domain.
 Nous recommendons d'enregistrer le nom de domaine auprès d'AWS gràce au service "Amazon Route 53".
 
 Route 53 est un service Web qui est un système de noms de domaine (DNS) hautement disponible et évolutif.
 
 
+
 ## Objectifs
 
-À partir d'un script (.sh) préalablement disponible dans le bucket S3 et téléchargé dans la machine "EC2" lors de son lancement; 
+À partir d'un script bash (.sh) importé dans la machine "EC2" lors de son lancement; 
 nous mettrons en place l'environnement du serveur de mails.
 
 
@@ -43,14 +45,17 @@ Liste des technologies AWS utilisées :
 
 - AWS EC2 (serveur mails)
 - Amazon Linux 2 OS
-- AWS S3
 - AWS Route 53
 - AWS Elastique IP (Adresse IP publique)
+
+- Postfix (www.postfix.org)
+- Dovecot (www.dovecot.org)
+- RainLoop Webmail (www.rainloop.net)
 
 
 
 ## Ressources
 
 - https://docs.aws.amazon.com/
-- https://wp-cli.org/fr/
+- https://www.youtube.com/
 - https://www.google.com/
